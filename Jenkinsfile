@@ -19,6 +19,7 @@ pipeline {
             """)
          }
       }
+<<<<<<< HEAD
       stage('Start test app') {
          steps {
             powershell(script: """
@@ -50,3 +51,7 @@ pipeline {
          }
       }
 }  
+=======
+   }
+}  
+>>>>>>> 2ea256b330e4b320c78b37cac8e393693ed0e9e6
